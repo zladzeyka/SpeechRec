@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD4C3E7323EB286000A9056A /* SpeechRecogniser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecogniser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4C3E7323EB286000A9056A /* SpeechRec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4C3E7623EB286000A9056A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD4C3E7823EB286000A9056A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FD4C3E7A23EB286000A9056A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FD4C3E7423EB286000A9056A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD4C3E7323EB286000A9056A /* SpeechRecogniser.app */,
+				FD4C3E7323EB286000A9056A /* SpeechRec.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = SpeechRecogniser;
 			productName = SpeechRecogniser;
-			productReference = FD4C3E7323EB286000A9056A /* SpeechRecogniser.app */;
+			productReference = FD4C3E7323EB286000A9056A /* SpeechRec.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.foxandowl.SpeechRecogniser;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpeechRec;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.foxandowl.SpeechRecogniser;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpeechRec;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
